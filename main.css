@@ -25,31 +25,31 @@ body {
 }
 
 .pink {
-    color: white; 
+    color: white; /*maakt de text wit*/
   }
   
   .goose {
-    color: #FFB4D3; 
+    color: #FFB4D3; /*maakt de text roze*/
   }
 
 .container-header {
-    background-color: #3C5389;
-    width: 1920px;
-    height: 100px;
-    display: flex;
-    align-items: center;
+    background-color: #3C5389; /*maakt de achtergrond deze kleur*/
+    width: 1920px; /*veranderd de breete*/
+    height: 100px;/*veranderd de hoogte*/
+    display: flex;/*dit laat je dingen met flex gebruiken*/
+    align-items: center; /*dit je alles in het midden */
     color: #ffffff;
-    font-weight: medium;
-    font-family: 'Inter', sans-serif;
+    font-weight: medium;/*dit past de dikte aan */
+    font-family: 'Inter', sans-serif;/*dit past de text aan*/
 }
 
 .naam {
-    transform: translateX(50px);
-    font-size: 30px;
+    transform: translateX(50px);/*dit zet de text naar beneden*/
+    font-size: 30px;/*dit maakt het groter of kleienr*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;/*dit zorg er voor dat er geen extra dingen zijn*/
     color: #ffffff;
 }
 
@@ -61,7 +61,7 @@ a {
 .aboutt {
     transform: translateX(550px);
     font-size: 25px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;/*dit zet er een rand omheen*/
 }
 
 .work {
@@ -103,7 +103,7 @@ a {
 
 .logo img {
     width: 550px;
-    height: auto;
+    height: auto;/*dit verandert de hoogte uitomaties*/
     transform: translate(1000px, -400px);
 }
 
