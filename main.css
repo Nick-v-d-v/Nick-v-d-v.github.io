@@ -9,6 +9,13 @@ body {
     height: 100%;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
 body {
     background-image: url('imgs/achtergrond.png');
     background-size: cover;
@@ -16,6 +23,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.pink {
+    color: white; 
+  }
+  
+  .goose {
+    color: #FFB4D3; 
+  }
 
 .container-header {
     background-color: #3C5389;
@@ -43,9 +58,21 @@ a {
     font-size: 25px;
 }
 
+.aboutt {
+    transform: translateX(550px);
+    font-size: 25px;
+    border-bottom: 2px solid #ffffff;
+}
+
 .work {
     transform: translateX(650px);
     font-size: 25px;
+}
+
+.workk {
+    transform: translateX(650px);
+    font-size: 25px;
+    border-bottom: 2px solid #ffffff;
 }
 
 .contact {
@@ -53,14 +80,320 @@ a {
     font-size: 25px;
 }
 
+.contactt {
+    transform: translateX(750px);
+    font-size: 25px;
+    border-bottom: 2px solid #ffffff;
+}
+
 .hi-container {
     transform: translate(200px, 190px);
     font-family: 'Inter', sans-serif;
     color: #3C5389;
-    height: auto;
-    width: auto;
+    width: 750px;
+}
+
+.hi {
+    font-size: 40px;
 }
 
 .ik {
-    font-size: 40px;
+    font-size: 30px;
 }
+
+.logo img {
+    width: 550px;
+    height: auto;
+    transform: translate(1000px, -400px);
+}
+
+.container-footer {
+    background-color: #3C5389;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: medium;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.discord {
+    transform: translate(270px, -15px);
+}
+
+.github {
+    transform: translate(145px, -15px);
+}
+
+.footer-email{
+    transform: translate(-25px, 25px);
+    font-size: 25px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    transform: translatey(50px);
+    font-family: 'Inter', sans-serif;
+    color: #3C5389;
+    font-size: 20px;
+}
+
+.about-me-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transform: translatey(185px);
+    font-size: 30px;
+    color: #3C5389;
+    font-family: 'Inter', sans-serif;
+}
+
+.work-big {
+    display: flex;
+    justify-content: center;
+    transform: translatey(20px);
+    font-family: 'Inter', sans-serif;
+    color: #3C5389;
+    font-size: 20px;
+}
+
+.opdracht-container {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    justify-content: center;
+    transform: translatey(50px);
+}
+
+.pink-goose img {
+    width: 400px;
+    height: 300px;
+}
+
+.eclipse img {
+    width: 400px;
+    height: 300px;
+}
+
+.projectweek img {
+    width: 400px;
+    height: 300px;
+}
+
+.opdracht-text-container {
+    display: flex;
+    color: #3C5389;
+    flex-direction: row;
+    justify-content: center;
+    transform: translatey(46px);
+    gap: 95px;
+}
+
+.textbox1 {
+    background-color: #3C5389;
+    width: 425px;
+    height: 320px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.textbox2 {
+    background-color: #3C5389;
+    width: 425px;
+    height: 320px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.textbox3 {
+    background-color: #3C5389;
+    width: 425px;
+    height: 320px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.pink-goose-text {
+    transform: translatey(10px);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.text1-1 {
+    transform: translatey(20px);
+    font-size: 20px;
+}
+
+.text1-2 {
+    transform: translatey(40px);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text1-3 {
+    transform: translatey(60px);
+    font-size: 20px;
+}
+
+.mastermind-text {
+    color: #ffffff;
+    transform: translatey(10px);
+    font-size: 20px;
+}
+
+.text2-1 {
+    transform: translatey(20px);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.text2-2 {
+    transform: translatey(65px);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.text2-3 {
+    transform: translatey(85px);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.projectweek-text {
+    color: #ffffff;
+    transform: translatey(10px);
+    font-size: 20px;
+}
+
+.text3-1 {
+    transform: translatey(20px);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.text3-2 {
+    transform: translatey(40px);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.text3-3 {
+    transform: translatey(60px);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contact-me {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    transform: translatey(20px);
+    color: #3C5389;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #3C5389;
+    width: 1000px;
+    height: 600px;
+    transform: translate(450px, 40px);
+    flex-direction: column;
+    align-items: center;  
+}
+
+.boven-blokken {
+    display: flex;
+    gap: 60px;
+}
+
+.blok-wit1, .blok-wit2, .blok-wit3 {
+    width: 400px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    transform: translateY(40px);
+    font-family: 'Inter', sans-serif;
+}
+
+.blok-wit3 {
+    width: 860px;
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    transform: translateY(40px);
+}
+
+.onder-blok {
+    margin-top: 20px;
+}
+
+.mijn-email {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    transform: translate(-235px, 60px);
+    font-size: 20px;
+}
+
+.mijn-telefoonnummer {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    transform: translate(-284px, 90px);
+    font-size: 20px;
+}
+
+.send-button {
+    width: 200px;
+    height: 80px;
+    background-color: #ffffff;
+    color: #3C5389;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px;
+    transform: translatex(340px);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.send-button:hover {
+    background-color: #afb1a5;
+    color: #3C5389;
+}
+
+
+
+
+
+
+
